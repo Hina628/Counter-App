@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(imagee.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(152, 204, 206);
+    margin: 0;
+    padding: 20px;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background:rgb(250, 248, 248);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(46, 16, 75);
+    text-decoration: underline;
+    font-size: 3.5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #aa2b2b;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #0b1929;
+    color: white;
+    border: none;
+    border-radius:0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+    font-size: 1rem;
+   
+}
+
+button:hover {
+    background-color: #0f7ef4;
+    transition: box-shadow 0.3s, transform 0.3s;
+    transform: scale(1.05); 
+}
+
+#Contact-list {
+    margin-top: 20px;
+}
+
+.contact {
+    background-color:rgb(145, 192, 207);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px; 
+    margin: 10px 0;
+    transition: box-shadow 0.3s, transform 0.3s;
+    font-size: 1.4rem; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.contact:hover {
+    box-shadow: 0 2px 10px rgba(20, 17, 17, 0.1);
+    transform: scale(1.05); 
+
+}
+
+.contact p {
+    color: #0856a3; 
+    margin: 5px 0 0 0; 
+
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
